@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Surya Arinaldi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body class="bg-slate-900">
+
+    <!-- Navbar start -->
+    <!-- Header nav start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 ">
+                    <a href="#home" class="font-bold text-lg text-gradasi block py-6">Surya Arinaldi</a>
+                </div>
+                <div class="flex items-center px-4 ">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out" </span>
+                            </button> <nav id="nav-menu"
+                            class="hidden absolute py-5 bg-slate-900 shadow-lg rounded-lg w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="#home"
+                                        class="text-base text-white py-2 mx-8 flex group-hover:text-gradasi">Beranda</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about"
+                                        class="text-base text-white py-2 mx-8 flex group-hover:text-gradasi">Tentang
+                                        Saya</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#portfolio"
+                                        class="text-base text-white py-2 mx-8 flex group-hover:text-gradasi">Portfolio</a>
+                                </li>
+                            </ul>
+                            </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header nav end -->
+    <!-- Navbar end -->
+
+    <!-- Hero section start -->
+    <section id="home" class="pt-20 lg:pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-white md:text-xl lg:text-lg">Halo Semua👋, saya <span
+                            class="block font-bold text-gradasi text-4xl mt-1 lg:text-5xl">Surya Arinaldi</span></h1>
+                    <h2 class="font-medium text-white text-lg mb-5 lg:text-2xl">Mahasiswa & <span
+                            class="text-slate-400">Junior Programmer</span></h2>
+                    <p class="font-medium text-white mb-10 leading-relaxed">Saya adalah seseorang yg perlu banyak <span
+                            class="text-gradasi font-bold ">Belajar</span></p>
+
+                    <a href="#"
+                        class="text-base font-semibold bg-gradasi py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi
+                        Saya</a>
+                </div>
+                <!-- Image -->
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:bottom-20 lg:ml-20 lg:right-0 rounded-tl-[100px] max-w-lg max-h-lg">
+                        <img src="dist/img/profil.png" alt="" class="max-w-full">
+                        <div class="w-full bg-gradasi py-1 rounded-b-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-28 pb-32 lg:pt-30 bg-slate-800">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/3 ">
+                    <h4 class="font-bold uppercase text-gradasi text-lg mb-3">Tentang Saya</h4>
+                    <h3 class="font-semibold text-white text-2xl">Mari berteman</h3>
+                    <div class="w-1/2 bg-gradasi py-[2px] rounded-b-full mb-4"></div>
+                    <p class="font-medium text-base text-white mb-6 lg:text-lg">Mari Ikuti saya di sosial media</p>
+                    <div class="flex items-center">
+                        <!-- Instagram -->
+                        <a href="https://instagram.com/_arinaldisrya" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:bg-gradasi hover:text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+                            </svg>
+                        </a>
+                        <!-- Tiktok -->
+                        <a href="https://tiktok.com/@ariiiiiiisj" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:bg-gradasi hover:text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                viewBox="0 0 50 50" class="fill-current">
+                                <path
+                                    d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z">
+                                </path>
+                            </svg>
+                        </a>
+                        <!-- Github -->
+                        <a href="https://https://github.com/Arinaldi779" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:bg-gradasi hover:text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 30 30">
+                                <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 mb-20 lg:w-1/3">
+                    <h3 class="font-bold text-2xl mb-3 text-white lg:pt-10">Riwayat
+                        <div class="w-1/2 bg-gradasi py-[2px] rounded-b-full"></div>
+                    </h3>
+                    <div class="w-full h-full rounded-xl relative bg-slate-800 shadow-2xl overflow-hidden max-h-96">
+                        <div class="flex flex-wrap justify-start p-2 bg-slate-800">
+                            <div class="text-slate-300 p-4">
+                                <h4 class="font-bold text-lg mb-5">Pendidikan</h4>
+                                <ul class="list-disc px-8">
+                                    <li>
+                                        <span class="text-xs">2020 - 2023</span>
+                                        <p class="font-semibold">Rekayasa Perangkat Lunak</p>
+                                        <p>SMKN 2 Banjarmasin</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="text-slate-300 mx-auto mt-1 p-4">
+                                <h4 class="font-bold text-lg mb-5">Pengalaman</h4>
+                                <ul class="list-disc px-8">
+                                    <li>
+                                        <span class="text-xs">4 Juli 2022 - 23 september 2022</span>
+                                        <p class="font-semibold">Rancang Bangun Game Edukasi</p>
+                                        <p>PT Educa Sisfomedia Gamelab Indonesia</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 mb-10 lg:w-1/3">
+                    <h3 class="text-2xl font-semibold mb-3 text-white lg:pt-10">Tech Stack
+                        <div class="w-1/2 bg-gradasi py-[2px] rounded-b-full"></div>
+                    </h3>
+                    <div class="w-full h-full max-h-60 rounded-xl relative bg-slate-800 shadow-2xl">
+                        <div class="flex flex-wrap px-5 pt-12 pb-0 gap-6 justify-around mx-auto">
+                            <span
+                                class="bg-gradasi text-black font-semibold w-1/3 text-center rounded-full shadow-2xl shadow-slate-500 mr-4">PHP</span>
+                            <span
+                                class="bg-gradasi text-black font-semibold w-1/3 text-center rounded-full shadow-2xl shadow-slate-500 mr-4">HTML</span>
+                            <span
+                                class="bg-gradasi text-black font-semibold w-1/3 text-center rounded-full shadow-2xl shadow-slate-500 mr-4">CSS</span>
+                            <span
+                                class="bg-gradasi text-black font-semibold w-1/3 text-center rounded-full shadow-2xl shadow-slate-500 mr-4">Bootstrap</span>
+                            <span
+                                class="bg-gradasi text-black font-semibold w-1/3 text-center rounded-full shadow-2xl shadow-slate-500 mr-4">MySQL</span>
+                            <span
+                                class="bg-gradasi text-black font-semibold w-1/3 text-center rounded-full shadow-2xl shadow-slate-500 mr-4">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Project Section start -->
+    <section id="portfolio" class="mb-10 pt-28 lg:pt-30">
+        <div id="" class="container">
+            <h1 class="text-2xl font-bold mb-4 text-slate-200 ">GitHub Repos
+                <div class="w-1/2 bg-gradasi py-[2px] rounded-b-full"></div>
+            </h1>
+            <div id="repos" class="grid grid-cols-1 gap-5 justify-between lg:grid-cols-4">
+                <!-- Template untuk repositori -->
+                <template id="repo-template">
+                    <a href="#" id="repo-link" target="_blank" class="bg-slate-800 p-10 rounded-lg shadow-2xl text-slate-200 m-2 w-full">
+                        <h2 class="text-xl font-bold mb-3" id="repo-tittle"></h2>
+                            <p id="repo-desc" class="text-sm">No description available.</p>
+                            <p id="repo-language" class="mt-2 font-semibold"></p>
+                    </a>
+                </template>
+            </div>
+        </div>
+    </section>
+    <!-- Project Section end -->
+
+    <!-- Footer start -->
+    <footer class="bg-slate-800 pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <!-- <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">Ari</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+                    <p>arii123@gmail.com</p>
+                    <p>Jl. Trans Kalimantan Desa Tatah Mesjid Kabupaten Barito Kuala</p>
+                    <p>Kalimantan Selatan</p>
+                </div> -->
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-gradasi mb-3">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-gradasi mb-3">Tentang Saya</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="inline-block text-base hover:text-gradasi mb-3">Portfolio</a>
+                        </li>
+                </div>
+            </div>
+
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/_arinaldisrya" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:bg-gradasi hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                        <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+                    </svg>
+                </a>
+                <!-- Tiktok -->
+                <a href="https://tiktok.com/@ariiiiiiisj" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:bg-gradasi hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                        viewBox="0 0 50 50" class="fill-current">
+                        <path
+                            d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z">
+                        </path>
+                    </svg>
+                </a>
+                <!-- Github -->
+                <a href="https://https://github.com/Arinaldi779" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:bg-gradasi hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 30 30">
+                        <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+            <p class="font-medium text-xs text-slate-500 text-center">Dibuat dengan <span class="text-pink-500">💓</span> oleh <a href="https://instagram.com/_arinaldisrya" target="_blank" class="font-bold text-primary">Surya Arinaldi</a> menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a></p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Script Js -->
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
