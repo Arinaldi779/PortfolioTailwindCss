@@ -29,7 +29,7 @@ let scrollLeft;
 // Api Github
 const username = 'Arinaldi779'; // Ganti dengan username GitHub yang diinginkan
 const repoContainer = document.getElementById('repos');
-const token = '0'; // Ganti dengan token akses GitHub Anda
+const token = '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'; // Ganti dengan token akses GitHub Anda
 const template = document.getElementById('repo-template');
 
 fetch(`https://api.github.com/users/${username}/repos`, {
